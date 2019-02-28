@@ -18,43 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colombia" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDI-V9-8CT">
-                                <rect key="frame" x="117" y="92.5" width="140" height="20.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="afM-Rf-ojA"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corral" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qK2-dB-DBA">
-                                <rect key="frame" x="113" y="243.5" width="138" height="20.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="138" id="iuT-hT-nTq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="1" y="267" width="412" height="42"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycu-YR-qPh">
-                                <rect key="frame" x="116" y="670" width="182" height="30"/>
+                                <rect key="frame" x="116" y="716.5" width="182" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="¡Quiero una hamburguesa!"/>
                                 <connections>
                                     <action selector="botonPresionado" destination="BYZ-38-t0r" eventType="touchUpInside" id="u5m-Y0-aHd"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Colombia" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDI-V9-8CT">
+                                <rect key="frame" x="137" y="100" width="140" height="20.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ycu-YR-qPh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="5KK-wI-yc1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CDI-V9-8CT" secondAttribute="bottom" constant="749" id="8Di-Xs-mGD"/>
-                            <constraint firstItem="Ycu-YR-qPh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="626" id="ant-zz-eFc"/>
-                            <constraint firstItem="qK2-dB-DBA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="bw3-rT-rbb"/>
-                            <constraint firstItem="CDI-V9-8CT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="xaB-ZF-cmD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qK2-dB-DBA" secondAttribute="bottom" constant="598" id="ytT-w1-uxn"/>
+                            <constraint firstItem="CDI-V9-8CT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6eY-zs-vA0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ycu-YR-qPh" secondAttribute="bottom" constant="115.5" id="ACg-0b-v7g"/>
+                            <constraint firstItem="CDI-V9-8CT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="Qbx-LK-SxL"/>
+                            <constraint firstItem="Ycu-YR-qPh" firstAttribute="centerX" secondItem="qK2-dB-DBA" secondAttribute="centerX" id="bcu-W9-Hnr"/>
+                            <constraint firstItem="qK2-dB-DBA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="e1R-h7-gLy"/>
+                            <constraint firstItem="qK2-dB-DBA" firstAttribute="centerX" secondItem="CDI-V9-8CT" secondAttribute="centerX" id="g63-XW-VZf"/>
+                            <constraint firstItem="qK2-dB-DBA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="223" id="sUN-UD-fM5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
